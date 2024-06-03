@@ -54,7 +54,7 @@ jobs:
           uses: Azure/aks-set-context@v1
           with:
             creds: ${{ secrets.AZURE_CREDENTIALS }}
-            resource-group: rg-handonaks
+            resource-group: rg-handsonaks
             cluster-name: handsonaks
 
         - name: Helm upgrade
